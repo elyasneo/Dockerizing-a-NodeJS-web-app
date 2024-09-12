@@ -1,4 +1,5 @@
-FROM balenalib/amd64-ubuntu-node:latest
+FROM sitespeedio/node:ubuntu-22-04-nodejs-20.15.1
+
 
 # Create app directory
 WORKDIR /usr/app
