@@ -1,4 +1,4 @@
-FROM node:10
+FROM balenalib/amd64-ubuntu-node:latest
 
 # Create app directory
 WORKDIR /usr/app
